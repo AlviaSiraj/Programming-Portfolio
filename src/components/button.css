@@ -1,0 +1,33 @@
+:root{
+    --primary: #fff;
+    text-align: center;
+
+}
+
+button{
+    font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 100rem;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: #fff;
+  border: 0;
+  outline: 0;
+  background: linear-gradient(to right, #1fe1e9, #5e33d1, #d34848, #ffb33f);
+  background-size: 175% 100%;
+  color: #fff;
+  text-align: center;
+  animation: gradient 3s ease infinite;
+  width: 13rem;
+  margin-top: 50px;
+}
+
+/* button should change when cursor hovers over */
+button:hover{
+    background:rgb(84, 52, 172);
+    color: #242424;
+    transition: all 0.3s ease-out;
+    cursor:pointer;
+}

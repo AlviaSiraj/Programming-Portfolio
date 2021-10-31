@@ -1,0 +1,253 @@
+.skills-container{
+    background: linear-gradient(90deg, rgb(100, 30, 121) 0%, rgb(199, 82, 121) 35%, rgba(67,0,255,1) 100%);
+    height: 150vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.about-btn{
+    color: #ff4d4d; 
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+     position:relative;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     border-radius: 60px;
+     background: white;
+     border:none;
+     overflow: hidden; 
+      padding: 15px;
+      cursor: pointer;
+      z-index: 200;
+      left: -200px;
+      height: 60px;      
+      top: 1130px;
+    }
+    
+    .about-btn a{
+      color: rgb(145, 128, 192);
+    }
+    
+    .about-btn span{
+    position: relative;
+    pointer-events: none;
+    }
+    
+    .about-btn::before {
+      --size: 0;
+      color: #ffffff;
+      content: '';
+      position: absolute;
+      left: var(--x);
+      top: var(--y);
+      width: var(--size);
+      height: var(--size);
+      background: radial-gradient(circle closest-side, #b205f7, transparent);
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      transition: width .2s ease, height .2s ease;
+  
+    }
+  
+    .about-btn:hover::before {
+      --size: 400px;
+    }
+  
+    .projects-btn{
+      color: #ff4d4d; 
+      font-size: 0.8rem;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif;
+      letter-spacing: 4px;
+       position:relative;
+       -webkit-appearance: none;
+       -moz-appearance: none;
+       appearance: none;
+       border-radius: 60px;
+       background: white;
+       border:none;
+       overflow: hidden; 
+        padding: 15px;
+        cursor: pointer;
+        top: 1130px;
+        right: 170px;
+        height: 60px;      
+        z-index: 200;
+      }
+      
+      .projects-btn a{
+        color: rgb(145, 128, 192);
+      }
+      
+      .projects-btn span{
+      position: relative;
+      pointer-events: none;
+      }
+      
+      .projects-btn::before {
+        --size: 0;
+        color: #ffffff;
+        content: '';
+        position: absolute;
+        left: var(--x);
+        top: var(--y);
+        width: var(--size);
+        height: var(--size);
+        background: radial-gradient(circle closest-side, #b205f7, transparent);
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        transition: width .2s ease, height .2s ease;
+    
+      }
+    
+      .projects-btn:hover::before {
+        --size: 400px;
+      }
+  
+.title{
+    font-size: 4rem;
+    color: #ffffff;
+    float: left;
+    padding-left: 50px;
+}
+
+.knowledge{
+    float: left;
+    margin-left: 100px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+}
+
+.knowledge-title{
+    color: black;
+    font-weight: bold;
+    margin-top: 100px;
+    float: left;
+    margin-left:-350px;
+}
+
+.full-stack{
+    padding:20px;
+}
+
+.front-end{
+    padding:20px;
+}
+
+.ui-design{
+    padding:20px;
+}
+
+.Android-design{
+    padding:20px;
+}
+
+.database{
+    padding:20px;
+}
+
+.skills{
+    float: left;
+    margin-left: 40px;
+}
+
+.skills-title{
+    color: black;
+    float: left;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+.skill-title{
+    padding:20px;
+    margin-top: 50px;
+    float: left;
+
+}
+
+@media screen and (max-width: 960px) {
+  
+.about-btn{
+  color: #ff4d4d; 
+  font-size: 0.75rem;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 4px;
+   position:relative;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   border-radius: 60px;
+   background: white;
+   border:none;
+   overflow: hidden; 
+    padding: 15px;
+    cursor: pointer;
+    z-index: 200;
+    left: -200px;
+    height: 50px;      
+    top: 1210px;
+  }
+  .projects-btn{
+    color: #ff4d4d; 
+    font-size: 0.75rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+     position:relative;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     border-radius: 60px;
+     background: white;
+     border:none;
+     overflow: hidden; 
+      padding: 15px;
+      cursor: pointer;
+      top: 1110px;
+      right: 230px;
+      height: 50px;      
+      z-index: 200;
+    }
+
+  
+  .knowledge{
+      float: left;
+      margin-left: 10px;
+      padding-bottom: 30px;
+      margin-top: -30px;
+  }
+  
+  .knowledge-title{
+      color: black;
+      font-weight: bold;
+      margin-top: 100px;
+      float: left;
+      margin-left:-350px;
+  }
+  
+  
+  .skills{
+      float: left;
+      margin-left: 10px;
+      margin-top: -50px;
+  }
+  
+  .skills-title{
+      color: black;
+      float: left;
+      padding-left: 50px;
+      padding-bottom: 30px;
+  }
+  
+  .skill-title{
+      padding:20px;
+      margin-top: 50px;
+      float: left;
+  
+  }
+}

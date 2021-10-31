@@ -1,0 +1,214 @@
+.projects-container{
+    background: linear-gradient(90deg, rgb(145, 79, 165) 0%, rgb(194, 103, 133) 35%, rgb(137, 115, 199) 100%);
+    height: 110vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.aboutbtn{
+    color: #ff4d4d; 
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+     position:relative;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     border-radius: 60px;
+     background: white;
+     border:none;
+     overflow: hidden; 
+      padding: 15px;
+      cursor: pointer;
+      z-index: 200;
+      left: -200px;
+      height: 60px;      
+      top: 780px;
+    }
+    
+    .aboutbtn a{
+      color: rgb(145, 128, 192);
+    }
+    
+    .aboutbtn span{
+    position: relative;
+    pointer-events: none;
+    }
+    
+    .aboutbtn::before {
+      --size: 0;
+      color: #ffffff;
+      content: '';
+      position: absolute;
+      left: var(--x);
+      top: var(--y);
+      width: var(--size);
+      height: var(--size);
+      background: radial-gradient(circle closest-side, #b205f7, transparent);
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      transition: width .2s ease, height .2s ease;
+  
+    }
+  
+    .aboutbtn:hover::before {
+      --size: 400px;
+    }
+  
+    .skills-btn{
+      color: #ff4d4d; 
+      font-size: 0.8rem;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif;
+      letter-spacing: 4px;
+       position:relative;
+       -webkit-appearance: none;
+       -moz-appearance: none;
+       appearance: none;
+       border-radius: 60px;
+       background: white;
+       border:none;
+       overflow: hidden; 
+        padding: 15px;
+        cursor: pointer;
+        top: 780px;
+        right: 170px;
+        height: 60px;      
+        z-index: 200;
+      }
+      
+      .skills-btn a{
+        color: rgb(145, 128, 192);
+      }
+      
+      .skills-btn span{
+      position: relative;
+      pointer-events: none;
+      }
+      
+      .skills-btn::before {
+        --size: 0;
+        color: #ffffff;
+        content: '';
+        position: absolute;
+        left: var(--x);
+        top: var(--y);
+        width: var(--size);
+        height: var(--size);
+        background: radial-gradient(circle closest-side, #b205f7, transparent);
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        transition: width .2s ease, height .2s ease;
+    
+      }
+    
+      .skills-btn:hover::before {
+        --size: 400px;
+      }
+  
+.title{
+    font-size: 4rem;
+    color: #ffffff;
+    float: left;
+    padding-left: 50px;
+}
+
+.project-title{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.projects{
+    padding: 12px;
+    margin-top: 30px;
+}
+
+li{
+    margin-left: 70px;
+    padding: 10px;
+}
+
+li span {
+    position: relative;
+    left: -10px;
+  }
+
+  @media screen and (max-width: 960px) {
+    .aboutbtn{
+      color: #ff4d4d; 
+      font-size: 0.75rem;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif;
+      letter-spacing: 4px;
+       position:relative;
+       -webkit-appearance: none;
+       -moz-appearance: none;
+       appearance: none;
+       border-radius: 60px;
+       background: white;
+       border:none;
+       overflow: hidden; 
+        padding: 15px;
+        cursor: pointer;
+        z-index: 200;
+        left: -20px;
+        height: 50px;      
+        top: 780px;
+      }
+
+      .skills-btn{
+        color: #ff4d4d; 
+        font-size: 0.75rem;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 4px;
+         position:relative;
+         -webkit-appearance: none;
+         -moz-appearance: none;
+         appearance: none;
+         border-radius: 60px;
+         background: white;
+         border:none;
+         overflow: hidden; 
+          padding: 15px;
+          cursor: pointer;
+          top: 682px;
+          right: -20px;
+          height: 50px;      
+          z-index: 200;
+        }
+
+        .title{
+          font-size: 4rem;
+          color: #ffffff;
+          float: left;
+          padding-left: 50px;
+      }
+      
+      .project-title{
+          font-size: 18px;
+          font-weight: bolder;
+      }
+      
+      .projects{
+          padding: 12px;
+          margin-top: -100px;
+      }
+      
+      li{
+          margin-left: 70px;
+          padding: 10px;
+          font-size: 15px;
+      }
+      
+      li span {
+          position: relative;
+          left: -10px;
+        }
+
+        .client-server{
+          margin-top: -150px;
+        }
+  }

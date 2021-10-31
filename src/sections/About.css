@@ -1,0 +1,298 @@
+
+.about-section{
+    background: linear-gradient(90deg, rgba(10,2,45,1) 0%, rgba(41,41,62,1) 35%, rgba(67,0,255,1) 100%);
+    position: relative;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.header{
+    font-size: 25px;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-top: 100px;
+    font-weight: bold;
+    text-align: center;
+ }
+
+ .title{
+    font-size: 4rem;
+    color: #ffffff;
+    float: left;
+    padding-left: 50px;
+}
+ .description{
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 20px;
+    position: absolute;
+    width: 70%;
+}
+
+.profilepic{
+    width: 100px;
+    height: auto;
+    top: 20px;
+    left: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.skillsbtn{
+  color: #ff4d4d; 
+  font-size: 0.8rem;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 4px;
+   position:relative;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   border-radius: 60px;
+   background: white;
+   border:none;
+   overflow: hidden; 
+    padding: 15px;
+    cursor: pointer;
+    right: 500px;
+    z-index: 200;
+    height: 60px;      
+    top: 360px;
+  }
+  
+  .skillsbtn a{
+    color: rgb(145, 128, 192);
+  }
+  
+  .skillsbtn span{
+  position: relative;
+  pointer-events: none;
+  }
+  
+  .skillsbtn::before {
+    --size: 0;
+    color: #ffffff;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side, #b205f7, transparent);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    transition: width .2s ease, height .2s ease;
+
+  }
+
+  .skillsbtn:hover::before {
+    --size: 400px;
+  }
+
+  .projectsbtn{
+    color: #ff4d4d; 
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+     position:relative;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     border-radius: 60px;
+     background: white;
+     border:none;
+     overflow: hidden; 
+      padding: 15px;
+      cursor: pointer;
+      top: 360px;
+      right: 470px;
+      height: 60px;      
+      z-index: 200;
+    }
+    
+    .projectsbtn a{
+      color: rgb(145, 128, 192);
+    }
+    
+    .projectsbtn span{
+    position: relative;
+    pointer-events: none;
+    }
+    
+    .projectsbtn::before {
+      --size: 0;
+      color: #ffffff;
+      content: '';
+      position: absolute;
+      left: var(--x);
+      top: var(--y);
+      width: var(--size);
+      height: var(--size);
+      background: radial-gradient(circle closest-side, #b205f7, transparent);
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      transition: width .2s ease, height .2s ease;
+  
+    }
+  
+    .projectsbtn:hover::before {
+      --size: 400px;
+    }
+
+    .speaker1{
+        position:relative;
+        cursor: pointer;
+        top: 80px;
+        left: 100px;
+        width: 250px;
+        height: auto;
+        transform: rotate(-180deg);
+        top: -280px;
+        left: 550px; 
+      }
+
+.tv{
+    position: relative;
+    top: -150px;
+    left: 500px;
+    width: 350px;
+    height: auto;
+  }
+
+.mouse {
+    width: 160px;
+    height: auto;
+    top: 660px;
+    left: 580px;
+    position: absolute;
+  }
+
+.clickimg{
+    width: 400px;
+    height: auto;
+    top: 120px;
+    left: 1150px;
+    position:absolute;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+.click{
+    font-size: 12px;
+    text-align: center;
+    margin-left: 410px;
+}
+
+@media screen and (max-width: 960px) {
+
+  .skillsbtn{
+    color: #ff4d4d; 
+    font-size: 0.75rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+     position:relative;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     border-radius: 60px;
+     background: white;
+     border:none;
+     overflow: hidden; 
+      padding: 5px;
+      cursor: pointer;
+      right: 150px;
+      z-index: 200;
+      height: 50px;      
+      top: 280px;
+    }
+
+
+    .projectsbtn{
+      color: #ff4d4d; 
+      font-size: 0.75rem;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif;
+      letter-spacing: 4px;
+       position:relative;
+       -webkit-appearance: none;
+       -moz-appearance: none;
+       appearance: none;
+       border-radius: 60px;
+       background: white;
+       border:none;
+       overflow: hidden; 
+        padding: 15px;
+        cursor: pointer;
+        top: 280px;
+        right: 100px;
+        height: 50px;      
+        z-index: 200;
+      }
+
+      .header{
+        font-size: 20px;
+        color: #ffffff;
+        padding-left: 10px;
+        padding-top: 20px;
+        font-weight: bold;
+        text-align: center;
+        float: left;
+     }
+
+     .description{
+      margin-top: 250px;
+      color: #ffffff;
+      font-size: 15px;
+      text-align: left;
+      padding-left: 20px;
+      position: absolute;
+      width: 70%;
+  }
+
+  .speaker1{
+    position:relative;
+    cursor: pointer;
+    top: 80px;
+    width: 150px;
+    height: auto;
+    transform: rotate(-180deg);
+    top: -280px;
+    left: 250px; 
+  }
+
+.tv{
+position: relative;
+top: -150px;
+left: 250px;
+width: 150px;
+height: auto;
+}
+
+.mouse {
+width: 100px;
+height: auto;
+top: 580px;
+left: 520px;
+position: absolute;
+}
+
+.clickimg{
+width: 50px;
+height: auto;
+top: 120px;
+left: 1150px;
+position:absolute;
+cursor: pointer;
+font-size: 12px;
+text-align: center;
+color: #ffffff;
+
+}
+}
